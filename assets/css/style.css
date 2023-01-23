@@ -1,0 +1,184 @@
+/* main color
+#0b7285
+light shade
+#3bc9db
+
+grey dark
+#868e96
+grey light
+#ced4da */
+body{
+                    /* font-family: sans-serif;
+                     */
+                     font-family: 'Kavoon', cursive;
+                    color:#495057;
+}
+#container{
+                    width:70%;
+                    margin:auto;
+}
+h1{
+                    color:#0b7285;
+                    font-weight: 800;
+                    text-align: center;
+                    font-size:40px;
+}
+
+/* description box */
+#description-box {
+                    border: 1px solid #868e96;
+                    padding:10px;
+}
+#description-box label{
+                    margin-left:8px;
+}
+#description-box input{
+                    padding:10px;
+                    border-color:transparent;
+                    margin-top:7px;
+                    width:100%;
+
+}
+#description-box:hover{
+                    background-color: #ced4da;
+
+}
+#description-box label:hover{
+                    cursor:pointer;
+}
+
+
+
+/* category box and date box  */
+/* main box */
+#category-date{
+                    display:flex;
+                    justify-content: space-between;
+                    border: 1px solid #868e96;
+}
+/* box1 */
+#category-box{
+                     border: 1px solid #868e96;
+                     padding:5px;
+                     width:50%;
+}
+#category-box select{
+                    border-color:transparent;
+                    margin-top:7px;
+                    border-color: #868e96;
+                    width:10rem;
+                    padding:10px;        
+                    font-family: 'Kavoon', cursive;
+}
+#category-box:hover{
+                    background-color: #ced4da;
+
+}
+#category-box label:hover{
+                    cursor:pointer;
+}
+
+/* box2 */
+#date-box{
+                     border: 1px solid #868e96;
+                     padding:5px;
+                     width:50%;
+
+}
+#date-box input{
+                    border-color:transparent;
+                    margin-top:7px;
+                    border-color: #868e96;
+                    width:10rem;
+                    padding:10px;        
+}
+#date-box:hover{
+                    background-color: #ced4da;
+
+}
+#date-box label:hover{
+                    cursor:pointer;
+}
+
+/* submit and delete button */
+#button{
+                    text-align : center;
+                    padding:10px;
+}
+#button button{
+                    padding:12px;
+                    width:100px;
+                    border-radius:20px;
+                    margin:5px;
+                    background-color: #0b7285;
+                    border:none;
+                    color:#3bc9db;
+}
+#button button:hover{
+                    cursor:pointer;
+                    background-color: #3bc9db;
+                    border-radius:0;
+                    color:#0b7285;
+
+}
+
+/* render list */
+ul{
+                    list-style-type:none;
+                    padding:0;
+}
+#list-box{
+                    display:flex;
+                    justify-content: space-between;
+                    border:1px dashed #868e96;
+                    padding:10px;
+}
+#list-subbox1 p:nth-child(1){
+                    margin-bottom:0;
+                    font-size:20px;
+}
+#list-subbox1 p:nth-child(2){
+                    margin-top:0;
+                    font-size:10px;
+}
+#list-subbox2{
+                    display:flex;
+                    justify-content:space-between;
+                    width:150px;
+                    align-items:center;
+
+}
+#list-subbox2 p{
+                    width:100px;
+                    /* border:2px solid black; */
+                    background-color: red;
+                    color:white;
+                    padding:4px;
+                    text-align:center;
+                    height:30px;
+}
+#delete-button{
+                    height:30px;
+                    width: 30px;
+                    background-color: #0b7285;
+                    border-radius:100%;
+                    display:flex;
+                    justify-content: center;
+                    align-items:center;
+}
+#delete-button:hover{
+                    cursor:pointer;
+                    background-color:#3bc9db;
+                    border-radius:0;
+}
+.sub-delete:hover{
+                    color:#0b7285;
+}
+.sub-delete{
+                    color:#3bc9db;
+
+}
+
+
+
+

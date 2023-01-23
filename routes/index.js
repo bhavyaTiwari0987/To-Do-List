@@ -4,12 +4,11 @@ module.exports = router;
 
 
 //accessing homeController
-const homeController = require('../controllers/home_controller');
+const homeController = require('../controllers/home_Controller');
 router.get('/', homeController.home);
 
-//agar koi request users ke liye aayi to vo users.js me chali jaegi.. 
-router.use('/users' , require('./users'));
-router.use('/posts', require('./posts'));
+//for all the request starting with /list 
+router.use('/list', require('./list'));
 
 //chekcing index.js router working or not
 console.log("router is working");
